@@ -1,15 +1,16 @@
 @font-face {
     font-family: Georgia;
-    src: url(.\fonts\Georgia\Georgia.ttf);
-    src: local(Georgia-Italic),
-    url(.\fonts\Georgia\Georgia-Italic.ttf)format(truetype);
+    src: url(.\fonts\Georgia\Georgia.ttf), url(.\fonts\Georgia\Georgia.woff), url(.\fonts\Georgia\Georgia.eot);
+    src: local(Georgia-Italic)
+    url(.\fonts\Georgia\Georgia-Italic.ttf)format(truetype), url(.\fonts/Georgia/Georgia-Italic.woff), url(.\fonts/Georgia/Georgia-Italic.woff);
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: Arial;
-    src: url(.\fonts\Arial\Arial-Black.ttf),
-    url(.\fonts\Arial\Arial-ItalicMT.ttf)format(truetype);
+    src: url(.\fonts\Arial\Arial-Black.ttf), url(.\fonts\Arial\Arial-Black.woff), url(.\fonts\Arial\Arial-Black.eot);
+    src: local(Arial-ItalicMT)
+    url(.\fonts\Arial\Arial-ItalicMT.ttf)format(truetype), url(.\fonts\Arial\Arial-ItalicMT.woff), url(.\fonts/Arial/Arial-ItalicMT.eot);
     font-weight: normal;
     font-style: normal;
 }
