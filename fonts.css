@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Georgia;
+    src: url(.\fonts\Georgia\Georgia.ttf);
+    src: local(Georgia-Italic),
+    url(.\fonts\Georgia\Georgia-Italic.ttf)format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Arial;
+    src: url(.\fonts\Arial\Arial-Black.ttf),
+    url(.\fonts\Arial\Arial-ItalicMT.ttf)format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url(.\fonts\Inter\Inter-VariableFont_slnt,wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-size: 50px;
+}
+.bold-text {
+font-family: "Georgia", Verdana, serif;
+font-weight: bold;
+}
+.normal-text {
+    font-family: "Arial", Verdana, serif;
+    font-weight: normal;
+    }
